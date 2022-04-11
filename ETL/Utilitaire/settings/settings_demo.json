@@ -1,0 +1,13 @@
+{
+    "postgre_db":
+    [
+        {
+            "name" : "postgre_santeviz",
+            "user" : "******",
+            "password" : "******",
+            "host" : "******",
+            "port" : "*****",
+            "database" : "*****"
+        }
+    ]
+}
