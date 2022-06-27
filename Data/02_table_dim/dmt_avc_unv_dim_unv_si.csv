@@ -1,0 +1,5 @@
+code_um;lib_um;unv;si;unv_si;hors_unv_si
+02AC;Soins intensifs en cardiologies = USIC;0;1;0;1
+02BC;Autres soins intensifs (hors UNV, USIC, néonatologie);0;1;0;1
+17C;UNV hors SI;1;0;0;1
+18C;Soins intensifs en UNV;1;1;1;0

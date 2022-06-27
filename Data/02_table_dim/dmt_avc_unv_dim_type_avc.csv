@@ -1,0 +1,7 @@
+cim_10;lib_cim_10;id_type_avc;lib_type_avc
+G45;Accidents ischémiques cérébraux transitoires et syndromes apparentés;1;Ischémique
+I63;Infarctus cérébral;1;Ischémique
+I60;Hémorragie sous-arachnoïdienne;2;Hémoragique
+I61;Hémorragie intracérébrale;2;Hémoragique
+I62;Autres hémorragies intracrâniennes non traumatiques;2;Hémoragique
+I64;Accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus;3;Autres

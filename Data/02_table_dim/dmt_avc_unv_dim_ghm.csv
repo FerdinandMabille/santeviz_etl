@@ -1,0 +1,27 @@
+id;lib_ghm;type_avc
+01M101;Autres affections cérébrovasculaires, niveau 1;
+01M102;Autres affections cérébrovasculaires, niveau 2;
+01M103;Autres affections cérébrovasculaires, niveau 3;
+01M104;Autres affections cérébrovasculaires, niveau 4;
+01M10T;Autres affections cérébrovasculaires, très courte durée;
+01M151;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge supérieur à 79 ans, niveau 1;Ischémique
+01M152;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge supérieur à 79 ans, niveau 2;Ischémique
+01M153;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge supérieur à 79 ans, niveau 3;Ischémique
+01M154;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge supérieur à 79 ans, niveau 4;Ischémique
+01M15T;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge supérieur à 79 ans, très courte durée;Ischémique
+01M161;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge inférieur à 80 ans, niveau 1;Ischémique
+01M162;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge inférieur à 80 ans, niveau 2;Ischémique
+01M163;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge inférieur à 80 ans, niveau 3;Ischémique
+01M164;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge inférieur à 80 ans, niveau 4;Ischémique
+01M16T;Accidents ischémiques transitoires et occlusions des artères précérébrales, âge inférieur à 80 ans, très courte durée;Ischémique
+01M301;Accidents vasculaires intracérébraux non transitoires, niveau 1;
+01M302;Accidents vasculaires intracérébraux non transitoires, niveau 2;
+01M303;Accidents vasculaires intracérébraux non transitoires, niveau 3;
+01M304;Accidents vasculaires intracérébraux non transitoires, niveau 4;
+01M30T;Transferts et autres séjours courts pour accidents vasculaires intracérébraux non transitoires;
+01M311;Autres accidents vasculaires cérébraux non transitoires, niveau 1;
+01M312;Autres accidents vasculaires cérébraux non transitoires, niveau 2;
+01M313;Autres accidents vasculaires cérébraux non transitoires, niveau 3;
+01M314;Autres accidents vasculaires cérébraux non transitoires, niveau 4;
+01M31T;Transferts et autres séjours courts pour autres accidents vasculaires cérébraux non transitoires;
+01M36E;Accidents vasculaires cérébraux non transitoires avec décès : séjours de moins de 2 jours;

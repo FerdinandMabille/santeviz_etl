@@ -1,0 +1,13 @@
+id_complexite;lib_complexite;id_type_complexite;type_complexite
+1;simple;1;Simple
+2;peu complexe;2;Peu complexe
+3;complexe;3;Complexe
+4;tres complexe;4;Très complexe
+A;simple;1;Simple
+B;peu complexe;2;Peu complexe
+C;complexe;3;Complexe
+D;tres complexe;4;Très complexe
+E;avec décès;4;Très complexe
+J;activité ambulatoire;1;Simple
+T;très courte durée;1;Simple
+Z;non segmenté;1;Simple

@@ -1,0 +1,125 @@
+﻿																																																																																																																																																																																																																																																																																																																																																																																																																			
+Classification internationale des maladies - 10ème révision - German Modification (CIM-10-GM) - Index systématique - Version 2022 du 15.12.2021																																																																																																					
+																																																																																																					
+La CIM-10-GM 2022 (Classification internationale des maladies – 10ème révision – German Modification) est l’adaptation 2022 de la version CIM-10-GM 2021 française. 
+La traduction se base sur l’ICD-10-GM 2022 éditée par le Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) en Allemagne (Etat au 17 septembre 2021).																																																																																																					
+La version 2022 de la CIM-10-GM entrera en vigueur le 1.1.2022 en Suisse. A cette date, son application sera obligatoire pour le codage des diagnostics dans le cadre de la statistique médicale des hôpitaux. 
+La version allemande – ICD-10-GM 2022 au format PDF - du BfArM est la version de référence.																																																																																																					
+La CIM-10-GM 2022 est disponible en allemand auprès du BfArM, ainsi qu’en français et en italien auprès de l’OFS. La version française de la CIM-10-GM 2021 est disponible aux formats PDF, ClaML, CSV et imprimé.
+																																																																																																					
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx																																																																																																					
+																																																																																																					
+CSV - Version métadonnée																																																																																																					
+
+La version métadonnée CSV contient tous les libellés des chapitres, des groupes et des codes de 3 à 5 positions.
+La hiérarchie classificatoire est représentée dans le fichier contenant les codes. Ce dernier contient également les métadonnées indiquant un lien avec le sexe ou l’âge, ainsi que le type d’erreur affecté. De plus une colonne indique, si la maladie est rare en Europe centrale (ces codes sont des erreurs potentielles de codage).
+Le fichier codes ne contient en revanche pas les informations complémentaires liées aux codes, tels les inclusions, textes explicatifs, etc. Les informations liées au contexte législatif allemand ainsi que les références aux listes de mortalités et de morbidités ne sont pas reprises dans les fichiers publiés par l’OFS.
+
+Avec les fichiers CSV - Version métadonnées, vous pouvez:
+- Etablir le lien entre le code et le libellé
+- Regrouper les codes selon les groupes, chapitres et signe particuliers pour des exploitations statistiques
+- Vérifier si les codes sont formellement corrects
+- Vérifier les codes par rapport au sexe et à l’âge du patient
+
+Les fichiers CSV - Version métadonnées ne sont pas appropriés pour l’élaboration d’un logiciel de codage, étant donné que des informations importantes de l’index systématique manquent. Sans inclusion, exclusion et autres textes explicatifs liés aux codes, la classification ne peut pas être utilisée pour travailler.																																																																																																					
+
+Fichiers
+	CIM10GM2022_CSV_S_FR_versionmétadonnée_chapitres_20211215																																																																																																				
+	CIM10GM2022_CSV_S_FR_versionmétadonnée_groupes_20211215																																																																																																				
+	CIM10GM2022_CSV_S_FR_versionmétadonnée_codes_20211215																																																																																																				
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Informations techniques																																																																																																																																																																																																							
+Description des variables de la version - CSV - Métadonnée				
+				
+Jeux de caractères UTF-8				
+				
+Les fichiers sont constitués de la façon suivante:				
+				
+CIM10GM2022_CSV_S_FR_versionmétadonnée_chapitres_20211215				
+Contient les chapitres de l’index systématique de la CIM-10-GM				
+	Colonne 1	Numéro du chapitre, max. 2 caractères		
+	Colonne 2	Titre du chapitre, jusqu’à 255 caractères		
+				
+CIM10GM2022_CSV_S_FR_versionmétadonnée_groupes_20211215				
+Contient les groupes de l’index systématique de la CIM-10-GM (Pour les chapitres contenant des groupes imbriqués, seuls les sous-groupes sont représentés; p.ex. pour le chapitre 2 les groupes structurants de niveau 1 et 2 C00-C97 et C00-C75 ne sont pas représentés, les groupes de niveau 3 C00-C14 le sont en revanche.)				
+	Colonne 1	Premier code à trois positions du groupe, 3 caractères		
+	Colonne 2	Dernier code à trois positions du groupe, 3 caractères		
+	Colonne 3	Numéro du chapitre, max. 2 caractères		
+	Colonne 4	Titre du groupe, jusqu’à 255 caractères		
+				
+CIM10GM2022_CSV_S_FR_versionmétadonnée_codes_20211215				
+Contient les codes de l’index systématique de la CIM-10-GM				
+	Colonne 1	Niveau hiérarchique de la classification, 1 caractère		
+				3 =	Code à 3 positions	
+				4 =	Code à 4 positions	
+				5 =	Code à 5 positions	
+	Colonne 2	Emplacement du code dans l’arborescence classificatoire, 1 caractère		
+				T =	Code terminal (code codable)	
+				N =	Code non-terminal (code non-codable)	
+	Colonne 3	Type de code à 4 ou à 5 positions		
+				X =	Mentionné de façon explicite (pré-combiné)	
+				S =	Par sous-classification (post-combiné)	
+	Colonne 4	Numéro du chapitre, max. 2 caractères		
+	Colonne 5	Premier code à trois positions du groupe, 3 caractères		
+	Colonne 6	Code sans dague éventuelle, jusqu’à 7 caractères		
+	Colonne 7	Code sans tiret, étoile ni point d’exclamation, jusqu’à 6 caractères		
+	Colonne 8	Code sans point, tiret, étoile ni point d’exclamation, jusqu’à 5 caractères		
+	Colonne 9	Titre de la classe, composé des composantes des titres des codes à 3, 4 et 5 positions, si existants, jusqu’à 255 caractères		
+	Colonne 10	Titre des codes à 3 positions, jusqu’à 255 caractères		
+	Colonne 11	Titre des codes à 4 positions, si existants, jusqu’à 255 caractères		
+	Colonne 12	Titre des codes à 5 positions, si existants, jusqu’à 255 caractères		
+	Colonne 13	Lien entre le code et le sexe		
+				9 =	Pas de lien avec le sexe	
+				M =	Masculin	
+				W =	Féminin	
+	Colonne 14	Type d’erreur lorsqu’il y a un lien entre le code et le sexe		
+				9 =	non pertinent	
+				K =	Peut être une erreur	
+	Colonne 15	Limite d’âge inférieure d’un code (Une maladie peut survenir dès l'âge d'au moins n jours/années de vie révolus.)		
+				9999 =	non pertinent	
+				t000 - t364 =	dès 0 jour période fœtale incluse - dès 364 jours de vie	
+				donc	t000 = dès la naissance (dès le 1er jour de vie) période fœtale comprise	
+						t001 = dès 1 jour de vie révolu (dès le 2ème jours de vie)	
+						t002 = dès 2 jours de vie révolus (dès le 3ème jours de vie)	
+						ainsi de suite jusqu'à	
+						t028 = dès 28 jours de vie révolus (dès le 29ème jour de vie, dès le 2ème mois de vie)	
+						ainsi de suite jusqu'à	
+						t364 = dès 364 jours de vie révolus (dès le 365ème jour de vie)	
+				j001 - j124 =	dès 1 an de vie - dès 124 ans de vie	
+				donc	j001 = dès 1 an de vie révolu (dès la 2ème année; dès 365 jours de vie révolus)	
+						j002 = dès 2 ans de vie révolus (dès la 3ème année de vie)	
+						ainsi de suite jusqu'à	
+						j124 = dès 124 ans de vie révolus (dès la 125ème année de vie)	
+	Colonne 16	Limite d’âge supérieure d'un code (Une maladie peut survenir jusqu'à une âge de maximum m jours/années de vie révolus.)		
+				9999 =	non pertinent	
+				t000 - t364 =	0 jours - jusqu'à 364 jours	
+				donc	t000 = fœtal, avant la naissance	
+						t001 = jusqu'à 1 jour de vie révolu (jusqu'à la fin du 1er jour de vie)	
+						t002 = jusqu'à 2 jours de vie révolus (jusqu'à la fin du 2ème jour de vie)	
+						ainsi de suite jusqu'à	
+						t364 = jusqu'à 364 jours de vie révolus (jusqu'à la fin du 364ème jour de vie)	
+				j001 - j124 =	jusqu'à 1 an - jusqu'à 124 ans	
+				donc	j001 = jusqu'à 1 an de vie révolu (jusqu'à la fin de la 1ère année de vie; jusqu'à la fin du 365ème jour de vie)	
+						j002 = jusqu'à 2 ans de vie révolus (jusqu'à la fin de la 2ème année de vie)	
+						ainsi de suite jusqu'à	
+						j124 = jusqu'à 124 ans de vie révolus (jusqu'à la fin de la 124ème année de vie)	
+	Colonne 17	Type d’erreur lié à l’âge		
+				9 =	non pertinent	
+				M =	Est une erreur	
+				K =	Peut être une erreur	
+	Colonne 18	La maladie est-elle très rare en Europe centrale?		
+				J =	Oui (--> Peut provoquer des erreurs!)	
+				N =	Non	
+	Colonne 19	Le code est-il complété d’une information sur le contenu?		
+				J =	Oui	
+				N =	Non (--> Peut provoquer des erreurs!)	
+																																																																																																					
+																																																																																																					
+Office fédéral de la statistique, Division Santé et affaires sociales																																																																																																					
+Renseignements: Secrétariat de codage de l’OFS (codeinfo@bfs.admin.ch)
+Version basée sur la CIM-10 de l’OMS et l’ICD-10-GM du Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM).
+La reproduction est autorisée, sauf à des fins commerciales, si la source est mentionnée.
+L’utilisation des versions française et italienne n’est autorisée que sur le territoire suisse.																																																																																																					
+© OFS - 2021										
