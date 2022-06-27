@@ -1,7 +1,7 @@
 id_mode_sortie;lib_mode_sortie
-1;Décès
-2;Domicile
-3;Transfert MCO
-4;Transfert SSR
-5;Transfert MS
-6;Transfert Autres
+9;Décès
+8;Domicile
+71;Transfert MCO
+72;Transfert SSR
+87;Transfert MS
+7;Transfert Autres
