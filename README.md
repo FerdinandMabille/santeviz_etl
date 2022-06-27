@@ -9,6 +9,7 @@ _Documentation
     |__ _01_data_source
     |__ _02_table_dim
     |__ _03_table_fait
+|__ _Spécifications
 _ETL
 |__ _Utilitaire
     |__ _main.py
