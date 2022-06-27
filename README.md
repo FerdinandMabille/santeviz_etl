@@ -4,6 +4,11 @@
 
 ```
 _Documentation
+|__ _Data
+    |__ _00_transformation_python
+    |__ _01_data_source
+    |__ _02_table_dim
+    |__ _03_table_fait
 _ETL
 |__ _Utilitaire
     |__ _main.py
@@ -22,7 +27,6 @@ _ETL
             |__ _transform_sqlquery.py
     |__ _settings
     |__ _utils
-
 _Librairies
 _Python
 _python_venv
